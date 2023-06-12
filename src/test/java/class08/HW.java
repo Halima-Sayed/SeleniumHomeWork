@@ -36,6 +36,6 @@ select a date on the calanader
         String selectDate="12";
         String selectMonth="Dec";
         String selectYear="1999";
-        selectDateOnCalendar(calenderXpath,monthXpath,yearXpath,dateXpath,selectDate,selectMonth,selectYear);
+       selectDateOnCalendar(calenderXpath,monthXpath,yearXpath,dateXpath,selectDate,selectMonth,selectYear);
     }
 }
