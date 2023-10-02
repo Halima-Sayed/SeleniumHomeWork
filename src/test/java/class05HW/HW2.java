@@ -1,11 +1,9 @@
-package class05;
+package class05HW;
 
 import Utils.CommonMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
-import java.nio.channels.SeekableByteChannel;
 
 public class HW2 extends CommonMethods {
     public static void main(String[] args) throws InterruptedException {

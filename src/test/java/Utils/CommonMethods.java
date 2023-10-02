@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.channels.SelectionKey;
 import java.time.Duration;
 import java.util.List;
 
@@ -65,6 +66,22 @@ public class CommonMethods {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    //HW develop a function in common methods to select from dropdown(single select)
+    public static void selectByVisibleText(WebDriver driver, String xpath, String text){
+        WebElement element=driver.findElement(By.xpath(xpath));
+        Select sel=new Select(element);
+        sel.selectByVisibleText(text);
+    }
+    public static void selectByValue(WebDriver driver, String xpath, String value){
+        WebElement element=driver.findElement(By.xpath(xpath));
+        Select sel=new Select(element);
+        sel.selectByValue(value);
+    }
+    public static void selectByIndex(WebDriver driver, String xpath, int index){
+        WebElement element=driver.findElement(By.xpath(xpath));
+        Select sel=new Select(element);
+        sel.selectByIndex(index);
     }
 
     public static void selectDateOnCalendar( String calendarXapth, String monthXpath, String yearXapth, String dateXpath, String selectDate, String selectMonth, String selectYear) {

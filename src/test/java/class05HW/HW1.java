@@ -1,4 +1,4 @@
-package class05;
+package class05HW;
 
 import Utils.CommonMethods;
 import org.openqa.selenium.Alert;

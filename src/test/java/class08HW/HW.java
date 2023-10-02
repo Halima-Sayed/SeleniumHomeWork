@@ -1,11 +1,8 @@
-package class08;
+package class08HW;
 
 import Utils.CommonMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
 
 public class HW extends CommonMethods {
     public static void main(String[] args) {

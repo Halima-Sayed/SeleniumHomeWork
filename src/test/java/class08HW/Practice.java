@@ -1,4 +1,4 @@
-package class08;
+package class08HW;
 
 import Utils.CommonMethods;
 import org.openqa.selenium.By;
